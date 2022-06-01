@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    font: 1em "Roboto Light", sans-serif;
+    background: rgb(69,153,168);
+    background: radial-gradient(circle, rgba(69,153,168,1) 0%, rgba(88,199,192,1) 50%, rgba(33,215,143,0.7679446778711485) 100%);
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    padding-bottom: 50px;
+    justify-content: center;
+    font-size: 3em;
+}
+
+#textarea {
+    width: 700px;
+    height: 300px;
+    resize: none;
+    padding: 140px 140px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: ghostwhite;
+    border-color: black;
+    border-radius: 12px;
+    font: 1em "Roboto Light", sans-serif;
+    cursor: text;
+    box-shadow: 1px 1px 2px black;
+}
+
+#textarea:focus {
+    outline-style: groove;
+}
+
+#text-btns {
+    display: flex;
+    margin-top: -10px;
+    padding: 0;
+}
+
+#convert_to {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2em;
+}
+
+#buttons {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons {
+    font: 1em "Roboto Light", sans-serif;
+    flex: 1;
+    margin: 10px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #04AA6D;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px black;
+    transition: 0.2s all;
+}
+
+.buttons:hover {
+    background-color: #0cc47b;
+    cursor: pointer;
+    color: ghostwhite;
+    box-shadow: 1px 1px 5px black;
+}
+
+.buttons:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    width: 70%;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 12px;
+    background-color: ghostwhite;
+    box-shadow: 1px 1px 2px black;
+    text-align: left;
+}
+
+span {
+    background-color: rgba(4, 170, 100, 0.4);
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
